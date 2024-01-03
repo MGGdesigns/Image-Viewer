@@ -4,7 +4,7 @@ import software.ulpgc.imageViewerMGG.interfaces.Image;
 import software.ulpgc.imageViewerMGG.interfaces.ImageLoader;
 
 public class MockImageLoader implements ImageLoader {
-    private final String[] ids = new String[] {"1.jpg","2.jpg","3.jpg", "4.jpg"};
+    private final String[] ids = new String[] {"1.jpg","2.jpg","3.jpg", "4.jpg", "5.jpg", "6.jpg"};
     @Override
     public Image load() {
         return imageAt(0);
